@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ h1 {
+    font-size:3rem;
+    font-family:'Brush Script MT', cursive;
+    border-bottom: solid 2px pink;
+    border-right:solid 2px pink ;
+    width: 50%;
+    text-align: center;
+    box-shadow: 4px 4px 5px rgb(111, 111, 111);
+
+}
+img {
+    height: 10rem;
+    width: 10rem;
+    margin: 0.5rem;
+    transition: all 1s;
+}
+img:hover{
+    transform:scale(1.1);
+}
